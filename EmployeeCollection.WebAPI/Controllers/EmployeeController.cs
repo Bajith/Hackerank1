@@ -7,4 +7,10 @@ using EmployeeCollection.WebAPI.Services;
 
 namespace EmployeeCollection.WebAPI.Controllers
 {
+    [ApiController]
+    [Route("[controller]")]
+    public class EmployeeController : ControllerBase
+    {
+    
+    }
 }
